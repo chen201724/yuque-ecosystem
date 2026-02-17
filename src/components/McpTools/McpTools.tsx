@@ -111,7 +111,27 @@ function McpTools() {
   return (
     <section className={styles.section}>
       <p className={styles.sectionLabel}>MCP Tools</p>
-      <h2 className={styles.sectionTitle}>25 个标准化工具，覆盖语雀全部核心能力</h2>
+      <div className={styles.titleRow}>
+        <h2 className={styles.sectionTitle}>25 个标准化工具，覆盖语雀全部核心能力</h2>
+        <div className={styles.titleLinks}>
+          <a
+            className={styles.externalLink}
+            href="https://github.com/chen201724/yuque-mcp-server"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub →
+          </a>
+          <a
+            className={styles.externalLink}
+            href="https://www.npmjs.com/package/yuque-mcp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            npm →
+          </a>
+        </div>
+      </div>
 
       <div className={styles.tabs}>
         {categories.map((cat) => (
