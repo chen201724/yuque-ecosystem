@@ -1,0 +1,17 @@
+{
+  "name": "yuque-ecosystem",
+  "owner": {
+    "name": "chen201724",
+    "email": "willchen.babydog@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "yuque",
+      "source": {
+        "source": "github",
+        "repo": "chen201724/yuque-plugin"
+      },
+      "description": "语雀知识库 AI 集成 — 25 MCP Tools + 6 Skills + 专业 Agent"
+    }
+  ]
+}
