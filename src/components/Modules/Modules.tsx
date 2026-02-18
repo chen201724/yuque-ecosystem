@@ -16,9 +16,8 @@ const modules = [
   {
     icon: '🧩',
     title: 'Plugin',
-    desc: '语雀编辑器深度集成，在文档编写过程中直接调用 AI 能力，实现无缝创作体验。',
-    meta: null,
-    comingSoon: true,
+    desc: '一键集成 MCP + Skills + Agent，让 Claude Code 开箱即用地操作语雀，零配置上手。',
+    meta: '25 Tools + 6 Skills + Agent',
   },
 ]
 
@@ -37,7 +36,6 @@ function Modules() {
             <h3 className={styles.cardTitle}>{m.title}</h3>
             <p className={styles.cardDesc}>{m.desc}</p>
             {m.meta && <span className={styles.cardMeta}>{m.meta}</span>}
-            {m.comingSoon && <span className={styles.comingSoon}>Coming Soon</span>}
           </div>
         ))}
       </div>
